@@ -1,4 +1,4 @@
-import { aboutCards } from '../../data/about'
+import { aboutCards } from "../../data/About";
 import '../../styles/about.css'
 
 export default function About() {

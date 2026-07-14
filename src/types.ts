@@ -24,6 +24,7 @@ export interface CertificateItem {
   title: string
   issuer: string
   icon: string
+  file: string
 }
 
 export interface AboutCard {
