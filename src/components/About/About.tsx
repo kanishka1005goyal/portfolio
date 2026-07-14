@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { aboutCards } from "../../data/About";
+=======
+import { aboutCards } from '../../data/About'
+>>>>>>> 8f880c0c6311a7174a2a893281019bdb8e658472
 import '../../styles/about.css'
 
 export default function About() {
