@@ -1,0 +1,27 @@
+.about-card {
+  --paragraph: hsl(0, 0%, 83%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.8rem 1.6rem;
+  background-color: var(--card);
+  border: 1px solid var(--card-border);
+  border-left: 3px solid var(--about-accent, var(--purple-light));
+  border-radius: 0.6rem;
+  transition: border-color 0.2s ease, transform 0.15s ease;
+}
+
+.about-card:nth-child(1) { --about-accent: #3fc9b4; }
+.about-card:nth-child(2) { --about-accent: #e8a33d; }
+.about-card:nth-child(3) { --about-accent: #e2725b; }
+.about-card:nth-child(4) { --about-accent: #6ba8a0; }
+.about-card:nth-child(5) { --about-accent: #d8b26a; }
+.about-card:nth-child(6) { --about-accent: #c98a72; }
+
+.about-card:hover {
+  transform: translateY(-2px);
+  border-left-color: var(--about-accent, var(--purple-light));
+  border-color: rgba(255, 255, 255, 0.12);
+  border-left-width: 3px;
+}
